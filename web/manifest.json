@@ -1,0 +1,45 @@
+{
+	"_version": "RP4.3.0",
+	"sap.app": {
+		"id": "swv",
+		"type": "application"
+	},
+	"sap.ui5": {
+		"dependencies": {
+			"minUI5Version": "1.71.25",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+                                "sap.ui.ux3": {},
+                                "sap.tnt": {},
+                                "sap.ui.layout": {},
+                                "sap.ui.table": {}
+			}
+		},
+		"rootView": {
+			"viewName": "swv.lib.app",
+			"type": "JS",
+			"async": false,
+			"id": "app"
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "swv.i18n.i18n"
+				}
+			},
+			"": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": ""
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/app.css"
+				}
+			]
+		}
+	}
+}

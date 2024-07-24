@@ -1,0 +1,104 @@
+
+/*
+.sapMITBHead{
+    margin: 8px 0px -8px 0px!important;
+}*/
+.sapMITBFilterIcon{
+    font-size:20px !important;
+    height: 37px;
+    width: 37px;
+    line-height: 35px;
+}
+.sapMITBTab {
+    height: 2.5rem !important;
+}
+/*.sapMITBFilter {
+    margin: 0px 0.90rem;
+}*/
+.sapUiUfdShellHeadItm>span>img{
+    margin-top: -3px;
+    margin-left: 0px;
+    width: 41px;
+    height: 41px;
+}
+.sapMITBTab {
+    width: 6rem;
+}
+.sapMITBText {
+    width: 6rem !important;
+}
+.sapUiSizeCompact .sapMInputBaseInner {
+    /*height: 1.3rem;*/
+    padding: 0 0.5rem;
+}
+
+.sapMInputBaseInner {
+    /*height: 2.5rem;*/
+    padding: 0 0.75rem;
+
+}
+
+.sapMPanelBGTranslucent{
+    border-left: 1px solid #dddddd!important;
+    border-right: 1px solid #dddddd!important;
+}
+.headerPanelBackgroundColor{
+    border-top-left-radius:6px!important;
+    border-top-right-radius:6px!important;
+    background: rgb(222, 240, 242)!important;
+}
+
+.homeimage{
+    margin-top: 59px!important;
+    margin-bottom: 59px!important;
+}
+.paneladmincontent{
+    text-align: left!important;
+}
+.myStateError { border: 2px solid #e52929!important; }
+.sappanel{
+    width: 55%;
+}
+.sapUiRespGrid.sapUiRespGridVSpace1>div {
+    margin-bottom: 0px!important;
+}
+.helpDialogLabel{
+    color: teal;
+    font-weight: bold;
+}
+.helpDialogerrormsg{
+    color: red;
+    font-weight: bold;
+}
+#helpDialog-icon{
+    color: red!important;
+}
+.radiobtnalign{
+    text-align: left!important;
+
+}
+.btnAlignCentre{
+    text-align: center!important;
+}
+.textquesAlign{
+    text-align: left!important;
+}
+#commText-content{
+    height: 15%;
+}
+.sapUiUfdShell .sapUiUfdShellHead>div {
+    background-color: #c2d5e8;
+}
+span[id^="reqQues"]{
+    margin-top: 8px!important;
+}
+#id_config_image{
+    width: 100%;
+    height: fit-content;
+}
+#id_Config_Refresh{
+    margin-left: -60%;
+}
+#helpmsg{
+    margin-left: 0.5rem!important;
+}

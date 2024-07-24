@@ -1,0 +1,66 @@
+<!-- Last Changed on Jun 30, 2021. WAR version: RP4.3.2
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html class = "loading">
+    <head>
+        <title>Reset Password - RP</title>
+        <link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv='Expires' content='0'>
+        <meta http-equiv='pragma' content='no-cache'>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://openui5.hana.ondemand.com/1.71.53/ ;
+              script-src 'self' https://openui5.hana.ondemand.com/1.71.53/ 'unsafe-eval';
+              style-src 'self' https://openui5.hana.ondemand.com/1.71.53/ 'unsafe-inline';
+              img-src 'self' https://openui5.hana.ondemand.com/1.71.53/ data: https:;"
+              >
+    </head>
+
+    <body class="sapUiBody" role="application">
+
+        <noscript>
+            <div style='position:absolute; background-color:white; width:100%; font-family: "72fallback","72","72full","Arial","Helvetica","sans-serif"'>
+                <hr>
+                <b style='color:red'>JavaScript is not enabled. 
+                    <br>Please change browser settings enabling JavaScript to view this website.
+                    <hr>
+                </b>
+                <br>
+            </div>
+        </noscript>
+
+        <div id="loadingBanner" class="loadingStyle">
+
+            <style scoped>
+                .loadingError{color: red;font-weight: bold;}
+                .loadingStyle{margin-left: 42%; font-family: "72fallback","72","72full","Arial","Helvetica","sans-serif"}
+                @keyframes blink {50% { color: transparent }}
+                .loader__dot { animation: 1s blink infinite }
+                .loader__dot:nth-child(2) { animation-delay: 250ms }
+                .loader__dot:nth-child(3) { animation-delay: 500ms }
+
+            </style>
+
+            <h3>Loading, Please Wait 
+                <span class="loader__dot">.</span>
+                <span class="loader__dot">.</span>
+                <span class="loader__dot">.</span>
+            </h3>
+        </div>
+        <script id="sap-ui-bootstrap"
+                src="/UI5_1.71.53/resources/sap-ui-core.js"
+                data-sap-ui-theme="sap_belize"
+                data-sap-ui-libs="sap.ui.commons,sap.ui.ux3,sap.m"
+                data-sap-ui-language="en"
+                data-sap-ui-preload="sync"
+                data-sap-ui-compatVersion="edge"
+                data-sap-ui-modules="sap/ui/core/ComponentSupport"
+                >
+                    // Offline // src="/openui5-runtime-1.71.33/resources/sap-ui-core.js" 
+                    // UI5 CDN // src = "https://openui5.hana.ondemand.com/1.71.33/resources/sap-ui-core.js"
+        </script>
+        <script  type="text/javascript" src="initialCall.js"></script>
+        <div id="content"></div>
+    </body>
+</html>
